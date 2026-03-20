@@ -1,15 +1,15 @@
 {
-  "name": "Chromatone",
-  "short_name": "Chromatone",
+  "name": "Glisstone",
+  "short_name": "Glisstone",
   "icons": [
     {
-      "src": "/chromatone/favicon/web-app-manifest-192x192.png",
+      "src": "/glisstone/favicon/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/chromatone/favicon/web-app-manifest-512x512.png",
+      "src": "/glisstone/favicon/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
