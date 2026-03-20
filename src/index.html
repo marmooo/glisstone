@@ -12,19 +12,8 @@
     <meta property="og:url" content="https://marmooo.github.io/glisstone/">
     <meta property="og:image" content="https://marmooo.github.io/glisstone/favicon/apple-touch-icon.png">
     <meta name="twitter:card" content="summary">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2179JXDYY"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-F2179JXDYY');
-    </script>
-    <script>
-      navigator.serviceWorker.register("/glisstone/sw.js");
-    </script>
     <link rel="icon" type="image/png" href="/glisstone/favicon/favicon.png">
-    <!-- <link rel="icon" type="image/svg+xml" href="/glisstone/favicon/favicon.svg"> -->
+    <link rel="icon" type="image/svg+xml" href="/glisstone/favicon/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/glisstone/favicon/apple-touch-icon.png">
     <link rel="manifest" href="/glisstone/favicon/site.webmanifest">
     <link rel="alternate" href="https://marmooo.github.io/glisstone/" hreflang="x-default">
@@ -35,18 +24,18 @@
       #panel { height: calc(100vh - 60px); }
       @media (orientation: landscape) {
         .panel { flex-direction: row; }
-        .panel:not(.single) .group.second { margin-left: -4%; }
+        .panel:not(.single) .group { width:50%; }
+        .panel:not(.single) .group.second { margin-left:-4%; }
       }
       @media (orientation: portrait) {
         .panel { flex-direction: column; }
       }
-      .panel { width: 100%; height: 100%; display: flex; flex: 1; justify-content: center;
-        position:relative; overflow:hidden; -webkit-user-select: none; user-select: none; touch-action:none; }
+      .panel { width:100%; height:100%; display:flex; flex:1; justify-content:center;
+        position:relative; overflow:hidden; -webkit-user-select:none; user-select:none; touch-action:none; }
       .panel.single .group.second { display: none; }
       .group { width:100%; aspect-ratio:810.6 / 660; }
       html[data-bs-theme="dark"] .favicon { filter: invert(1) hue-rotate(180deg); }
     </style>
-    <script data-ad-client="ca-pub-6459713332128733" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
   <body>
     <header>
