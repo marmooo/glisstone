@@ -32,7 +32,7 @@ function toggleHandMode(event) {
 function changeLang() {
   const langObj = document.getElementById("lang");
   const lang = langObj.options[langObj.selectedIndex].value;
-  location.href = `/chromatone/${lang}/`;
+  location.href = `/glisstone/${lang}/`;
 }
 
 function getGlobalCSS() {

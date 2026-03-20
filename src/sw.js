@@ -1,7 +1,7 @@
-const cacheName = "2026-03-17 00:00";
+const cacheName = "2026-03-20 00:00";
 const urlsToCache = [
-  "/chromatone/index.js",
-  "/chromatone/favicon/favicon.svg",
+  "/glisstone/index.js",
+  "/glisstone/favicon/favicon.svg",
   "https://marmooo.github.io/midi-player/midi-player-icons.woff2",
   "https://soundfonts.pages.dev/GeneralUser_GS_v1.471/000.sf3",
   "https://soundfonts.pages.dev/GeneralUser_GS_v1.471/128.sf3",
