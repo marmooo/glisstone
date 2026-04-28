@@ -1,4 +1,4 @@
-const cacheName = "2026-04-27 00:00";
+const cacheName = "2026-04-28 00:00";
 const urlsToCache = [
   "/glisstone/index.js",
   "/glisstone/favicon/favicon.svg",

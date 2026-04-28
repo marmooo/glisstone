@@ -12,6 +12,25 @@
     <meta property="og:url" content="https://marmooo.github.io/glisstone/">
     <meta property="og:image" content="https://marmooo.github.io/glisstone/favicon/apple-touch-icon.png">
     <meta name="twitter:card" content="summary">
+    <script>
+      (function() {
+        const saved = localStorage.getItem("darkMode");
+        const prefersDark = globalThis.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = saved || (prefersDark ? "dark" : "light");
+        document.documentElement.setAttribute("data-bs-theme", theme);
+      })();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2179JXDYY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2179JXDYY');
+    </script>
+    <script>
+      navigator.serviceWorker.register("/glisstone/sw.js");
+    </script>
     <link rel="icon" type="image/png" href="/glisstone/favicon/favicon.png">
     <link rel="icon" type="image/svg+xml" href="/glisstone/favicon/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/glisstone/favicon/apple-touch-icon.png">
@@ -37,6 +56,7 @@
       .group { aspect-ratio:810.6 / 660; width:100%; max-width: calc((100vh - 60px) * 810.6 / 660); max-height:100%; }
       html[data-bs-theme="dark"] .favicon { filter: invert(1) hue-rotate(180deg); }
     </style>
+    <script data-ad-client="ca-pub-6459713332128733" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
   <body>
     <header>
